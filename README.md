@@ -5,7 +5,7 @@ exigences de l'État de Genève en vue d'une publication en open source sur GitH
 
 # Usage
 
-Le plus simple est de copier les fichiers de ce projet dans votre projet Git.
+Si votre projet Git existe déjà, le plus simple est d'y copier les fichiers de ce projet.
 Si votre projet Git n'existe pas encore, vous pouvez le créer à partir de ce squelette :
 ```
 git clone https://github.com/republique-et-canton-de-geneve/squelette-github
