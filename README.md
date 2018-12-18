@@ -41,6 +41,30 @@ ainsi modifié.
 
 - Détruisez le fichier `LICENSE-sources.txt`.
 
+Exemple d'application en masse à un projet dont les sources sont des fichiers `.java`.
+Depuis une console de type Linux (sur Windows, ce peut être un Git Bash) :
+
+- À la racine du projet, créer un fichier `command` avec le contenu suivant :
+```
+for file in `find . -name "*.java"`
+do
+  echo $file
+  cat LICENSE-source.txt $file >> f
+  mv f $file
+done
+```
+
+- Modifier le fichier `LICENSE-sources.txt` comme indiqué ci-dessus.
+
+- Taper :
+```
+chmod a+x command
+./command
+git status
+```
+
+- En cas d'erreur, taper simplement `git reset --hard` pour annuler tous les changements.
+
 ## Fichier CONTRIBUTING.md
 
 Ce document founit aux développeurs de la communauté des instructions sur la manière de collaborer à votre projet.
