@@ -49,7 +49,7 @@ Depuis une console de type Linux (sur Windows, ce peut être un Git Bash) :
 for file in `find . -name "*.java"`
 do
   echo $file
-  cat LICENSE-source.txt $file >> f
+  cat LICENSE-sources.txt $file >> f
   mv f $file
 done
 ```
