@@ -77,7 +77,7 @@ laisser à la racine de votre projet.
 Ces fichiers ne sont que des exemples : vous êtes libre de choisir un autre contenu.
 Vous pouvez en particulier consulter les références proposées par GitHub au bas de sa page d'
 [instructions](https://help.github.com/articles/setting-guidelines-for-repository-contributors).
-Si le format `.md` (markdown) vous rebute, vous être libre de créer un fichier `CONTRIBUTING.txt` en format texte.
+Si le format `.md` (markdown) vous rebute, vous êtes libre de créer un fichier `CONTRIBUTING.txt` en format texte.
 
 ## Fichier CODE_OF_CONDUCT.md
 
