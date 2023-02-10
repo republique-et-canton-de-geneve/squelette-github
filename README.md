@@ -138,11 +138,11 @@ Dans GitHub, n'oubliez pas d'ajouter une description en une ligne de votre proje
 du projet).
 
 Une fois que tous les fichiers ci-dessus ont été intégrés à votre projet sur GitHub, pour vérifier qu'ils sont
-adéquats, allez sur l'onglet `Insights`, puis sur l'option `Community`, et vérifiez que les indicateurs sont
+adéquats, allez sur l'onglet `Insights`, puis sur l'option `Community Standards`, et vérifiez que les indicateurs sont
 au vert.
 L'indicateur "Pull request template" n'est pas au vert, mais le fonctionnement de base de GitHub pour la création
 d'une pull request est suffisant.
-Notez que vous devez être connecté à GitHub pour voir l'option `Community`.
+Notez que vous devez être connecté à GitHub pour voir l'option `Community Standards`.
 
 Vérifiez que vous êtes bien observateur de votre propre projet (bouton `Watch`).
 Sans cela, si un développeur de la communauté soumet une pull request ou une "issue" (fiche
